@@ -1,0 +1,82 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.justify-space-between {
+  justify-content: space-between;
+}
+
+.p-relative {
+  position: relative;
+}
+
+.p-absolute {
+  position: absolute;
+}
+
+.left-50 {
+  left: 50%;
+}
+
+.justify-space-around {
+  justify-content: space-around;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.fs-30 {
+  font-size: 30px;
+}
+
+.fs-14 {
+  font-size: 14px;
+}
+.fs-24 {
+  font-size: 24px;
+}
+.fs-18 {
+  font-size: 18px;
+}
+.margin-auto {
+  margin: auto;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.d-grid {
+  display: grid;
+}

@@ -1,0 +1,147 @@
+.intro {
+  height: 534px;
+  display: flex;
+  flex-direction: row;
+}
+.intro img.haiminh {
+  width: 330px;
+  position: absolute;
+  right: 3px;
+  filter: grayscale(100%);
+}
+.intro .name-heading {
+  position: absolute;
+  top: 100px;
+  left: 300px;
+  padding-top: 8px;
+  padding-bottom: 18px;
+  background-color: #eeeef1;
+}
+.intro .name-heading .name {
+  font-size: 70px;
+  font-weight: 700;
+  letter-spacing: 4px;
+  word-spacing: 4px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.intro .name-heading .title {
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 8px;
+}
+.intro .rectangle {
+  border: 3px solid #333333;
+  width: 342px;
+  min-width: 342px;
+  height: 534px;
+}
+.intro .info {
+  position: absolute;
+  top: 300px;
+  left: 17px;
+  padding: 16px 0;
+  background-color: #eeeef1;
+  width: fit-content;
+}
+.intro .info div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.intro .info div > span:first-child {
+  margin-right: 16px;
+  font-size: 30px;
+}
+.intro .info div.phone > span {
+  letter-spacing: 1px;
+}
+.intro .about-me {
+  border-bottom: 3px solid #333333;
+  height: 534px;
+  padding-top: 400px;
+  margin-left: 55px;
+}
+
+.heading {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+.sub-heading {
+  font-weight: 600;
+  color: #5e5e5e;
+}
+
+.wrapper {
+  padding: 50px 30px;
+  position: relative;
+}
+
+.detail {
+  margin-top: 58px;
+  display: flex;
+}
+.detail .left {
+  width: 342px;
+}
+.detail .left .grid-item {
+  font-size: 25px;
+}
+.detail .right {
+  margin-left: 55px;
+}
+
+.grid-2 {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.divider {
+  border-top: 1px solid #333333;
+  border-bottom: 2px solid #333333;
+}
+.divider__info {
+  width: 225px;
+  margin-left: 19px;
+  position: absolute;
+  top: 253px;
+}
+.divider__education {
+  width: 342px;
+}
+
+.circle {
+  border-radius: 50%;
+  width: 14px;
+  height: 14px;
+  display: inline-block;
+  background-color: #333333;
+}
+.circle__light {
+  background-color: #969696;
+}
+
+body {
+  background-color: #eeeef1;
+}
+
+.page-break {
+  margin-top: 6rem;
+}
+
+@page {
+  size: A4;
+  margin: 0;
+}
+@media print {
+  html,
+body {
+    width: 210mm;
+    height: 746mm;
+  }
+}
+body {
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=output.css.map */
