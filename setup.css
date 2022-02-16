@@ -80,3 +80,7 @@ a {
 .d-grid {
   display: grid;
 }
+
+.break-page {
+  margin-bottom: 250px;
+}
