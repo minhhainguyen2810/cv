@@ -1,5 +1,5 @@
 .intro {
-  height: 815px;
+  height: 900px;
   display: flex;
   flex-direction: row;
 }
@@ -57,7 +57,7 @@
 }
 .intro .about-me {
   border-bottom: 3px solid #333333;
-  height: 815px;
+  height: 900px;
   padding-top: 400px;
   margin-left: 55px;
 }
@@ -77,12 +77,12 @@
 }
 
 .detail {
-  margin-top: 58px;
+  margin-top: 74px;
   display: flex;
 }
 .detail .left {
   width: 342px;
-  margin-top: -200px;
+  margin-top: -286px;
 }
 .detail .left .grid-item {
   font-size: 25px;
@@ -130,7 +130,7 @@
 }
 @media print {
   html,
-body {
+  body {
     width: 210mm;
     height: 746mm;
   }
